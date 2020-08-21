@@ -85,7 +85,7 @@ class _RandomSentenceSTATE extends State<RandomSentences>{
     String _getSentence() {
     final noun = new WordNoun.random();
     final adjective = new WordAdjective.random();
-    return"The programmer wrote a ${adjective.asCapitalized}"" app in Flutter and showed it"" off to his ${noun.asCapitalized}";
+    return"The programmer wrote a ${adjective.asCapitalized}"" apk in Flutter and showed it"" off to his ${noun.asCapitalized}";
   }
 
 
